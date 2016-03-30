@@ -5,8 +5,8 @@ import spray.json.{ DefaultJsonProtocol, RootJsonFormat }
 
 object MessageFormat extends DefaultJsonProtocol {
   import ConversationFormat.ConversationJsonFormat
-  import MessagePartFormat.MessagePartJsonFormat
   import DateTimeFormat.DateTimeJsonFormat
+  import MessagePartFormat.MessagePartJsonFormat
   import MessageSenderFormat.MessageSenderJsonFormat
 
   implicit val MessageJsonFormat: RootJsonFormat[Message] = jsonFormat(

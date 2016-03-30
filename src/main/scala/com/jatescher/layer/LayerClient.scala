@@ -7,10 +7,9 @@ import akka.http.scaladsl.model._
 import akka.http.scaladsl.model.headers.{ Accept, Authorization, OAuth2BearerToken }
 import akka.http.scaladsl.unmarshalling.Unmarshal
 import akka.stream.Materializer
-import com.jatescher.layer.marshalling.Marshallers._
-import com.jatescher.layer.marshalling.Marshallers.ErrorResponseUnmarshaller
-import com.jatescher.layer.models.{ ErrorResponse, Message }
 import com.jatescher.layer.http.MediaRanges.LayerJsonMediaRange
+import com.jatescher.layer.marshalling.Marshallers.{ ErrorResponseUnmarshaller, _ }
+import com.jatescher.layer.models.{ ErrorResponse, Message }
 import com.typesafe.config.Config
 import scala.concurrent.{ ExecutionContext, Future }
 

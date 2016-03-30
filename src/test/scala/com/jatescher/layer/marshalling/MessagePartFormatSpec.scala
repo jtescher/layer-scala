@@ -2,9 +2,9 @@ package com.jatescher.layer.marshalling
 
 import com.jatescher.layer.factories.MessagePartFactory
 import com.jatescher.layer.marshalling.v1.MessagePartContentFormat.MessagePartContentJsonFormat
-import com.jatescher.layer.marshalling.v1.MessagePartFormat.{ MessagePartJsonFormat, ImageMessagePartJsonFormat, TextMessagePartJsonFormat }
-import com.jatescher.layer.models.MessageParts.{ ImageMessagePart, TextMessagePart }
+import com.jatescher.layer.marshalling.v1.MessagePartFormat.{ ImageMessagePartJsonFormat, MessagePartJsonFormat, TextMessagePartJsonFormat }
 import com.jatescher.layer.models.MessagePart
+import com.jatescher.layer.models.MessageParts.{ ImageMessagePart, TextMessagePart }
 import org.scalatest.{ Matchers, WordSpec }
 import spray.json._
 

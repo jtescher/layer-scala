@@ -4,10 +4,10 @@ import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
 import akka.http.scaladsl.marshalling.ToEntityMarshaller
 import akka.http.scaladsl.unmarshalling.FromEntityUnmarshaller
 import com.jatescher.layer.marshalling.v1._
+import com.jatescher.layer.models.MessagePartContents.ImageMessagePartContent
+import com.jatescher.layer.models.MessageParts.{ ImageMessagePart, TextMessagePart }
+import com.jatescher.layer.models.MessageSenders.{ HumanMessageSender, NonHumanMessageSender }
 import com.jatescher.layer.models._
-import MessagePartContents.ImageMessagePartContent
-import MessageParts.{ ImageMessagePart, TextMessagePart }
-import MessageSenders.{ HumanMessageSender, NonHumanMessageSender }
 import spray.json._
 
 object Marshallers extends SprayJsonSupport with DefaultJsonProtocol {

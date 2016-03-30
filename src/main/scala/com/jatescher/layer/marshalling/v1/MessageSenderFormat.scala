@@ -1,7 +1,7 @@
 package com.jatescher.layer.marshalling.v1
 
+import com.jatescher.layer.models.MessageSenders.{ HumanMessageSender, NonHumanMessageSender }
 import com.jatescher.layer.models.{ MessageSender, MessageSenders }
-import MessageSenders.{ HumanMessageSender, NonHumanMessageSender }
 import spray.json._
 
 object MessageSenderFormat extends DefaultJsonProtocol {

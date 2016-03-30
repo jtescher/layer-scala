@@ -5,11 +5,10 @@ import akka.http.scaladsl.model._
 import akka.stream.ActorMaterializer
 import akka.util.ByteString
 import com.jatescher.layer.factories.MessageFactory
-import com.jatescher.layer.marshalling.v1.MessageFormat.MessageJsonFormat
 import com.jatescher.layer.models.ErrorResponse
 import com.typesafe.config.{ Config, ConfigFactory }
-import org.scalatest.{ Matchers, WordSpecLike }
 import org.scalatest.concurrent.{ IntegrationPatience, ScalaFutures }
+import org.scalatest.{ Matchers, WordSpecLike }
 import scala.concurrent.Future
 
 class LayerClientSpec extends WordSpecLike with Matchers with ScalaFutures with IntegrationPatience {

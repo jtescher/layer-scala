@@ -1,7 +1,7 @@
 package com.jatescher.layer.marshalling.v1
 
+import com.jatescher.layer.models.MessagePartContents.ImageMessagePartContent
 import com.jatescher.layer.models.{ MessagePartContent, MessagePartContents }
-import MessagePartContents.ImageMessagePartContent
 import spray.json._
 
 object MessagePartContentFormat extends DefaultJsonProtocol {
