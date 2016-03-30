@@ -3,7 +3,8 @@
 [![Build Status](https://travis-ci.org/jtescher/layer-scala.svg?branch=master)](https://travis-ci.org/jtescher/layer-scala)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/bb203081831c4963a8f11a105a2c1ced)](https://www.codacy.com/app/jatescher/layer-scala)
 
-Scala library for interacting with the layer API.
+Scala library for interacting with the [Layer](https://layer.com) API in an [Akka](http://akka.io) or
+[Play](https://www.playframework.com) application.
 
 ## Useful Links
 
