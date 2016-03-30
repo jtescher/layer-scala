@@ -1,5 +1,7 @@
 # Layer Scala
 
+[![Build Status](https://travis-ci.org/jtescher/layer-scala.svg?branch=master)](https://travis-ci.org/jtescher/layer-scala)
+
 Scala library for interacting with the layer API.
 
 ## Useful Links

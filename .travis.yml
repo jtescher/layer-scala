@@ -1,0 +1,7 @@
+language: scala
+script:
+  - sbt scalastyle coverage test coverageReport
+scala:
+  - 2.11.7
+jdk:
+  - oraclejdk8
